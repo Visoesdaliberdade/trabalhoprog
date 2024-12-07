@@ -13,8 +13,8 @@ body {
     padding: 0 20px;
 }
 
-header {
-    background-color: #333;
+header {border-radius: 10px;
+    background-color:#333;
     color: #fff;
     text-align: center;
     padding: 20px 0;
@@ -26,6 +26,10 @@ header h1 {
 
 header p {
     font-size: 1.2em;
+    background-color: blueviolet;
+    width: 500px;
+    margin-left: 500px;
+    border-radius: 10px;
 }
 
 /* Estilos do Portfólio */
@@ -78,14 +82,18 @@ header p {
     margin-top: 10px;
     color: #555;
     font-size: 1em;
+    
 }
 
 .project:hover img {
     transform: scale(1.05);
+    background-color: black;
+ color: blue;
 }
 
 .project:hover {
     transform: translateY(-5px);
+    box-shadow: 2px black solid;
 }
 
 /* Estilos das Habilidades */
@@ -118,6 +126,7 @@ footer {
     padding: 20px;
     background-color: #333;
     color: #fff;
+    border-radius: 20px;
 }
 
 footer a {
